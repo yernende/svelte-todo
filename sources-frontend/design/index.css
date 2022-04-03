@@ -1,0 +1,32 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.todos-left-notice {
+  margin: 4px 0;
+}
+
+.form-todo {
+  display: grid;
+  grid-template-columns: 1fr 100px 4em;
+  grid-auto-rows: 30px;
+  grid-gap: 2px;
+}
+
+.todos-grid {
+  display: grid;
+  grid-template-columns: 1fr 100px 4em;
+  grid-auto-rows:30px;
+  grid-gap: 4px;
+  margin-top: 4px;
+}
+
+.todos-grid div {
+  display: flex;
+  align-items: center;
+}
+
+.todos-grid button {
+  align-self: stretch;
+}
